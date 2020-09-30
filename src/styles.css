@@ -1,0 +1,217 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    background-color: #d6d6d6 !important;
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+accen-hero-profile > a {
+    background-color: #003aff;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 20px;
+    left: 31px;
+    transform: rotate(8deg);
+}
+
+h1 {
+    background-color: #fd253b;
+    color: #ffffff !important;
+    padding: 5px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.hero-entry {
+    background-color: #000000;
+    color: #ffffff;
+    height: 350px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 15px solid #ffffff;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.hero-entry > img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.hero-entry > span {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    font-size: 20px; 
+    font-family: 'Anton', sans-serif;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.paginator {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255,255,255,1);
+    margin-bottom: 25px;
+}
+
+.paginator .paginator-prev {
+    float: left;
+    background-color: #003aff;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    transform: rotate(8deg);
+}
+
+.paginator .paginator-next {
+    float: right;
+    background-color: #ff0000;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    transform: rotate(8deg);
+}
+
+.heroe-profile h3, .heroe-profile p, .heroe-profile span.modified {
+    background-color: #ffffff;
+    transform: rotate(2deg);
+    padding: 6px;
+    border: 1px solid #000000;
+}
+
+.heroe-profile img {
+    transform: rotate(-4deg);
+    width: 100%;
+    border: 10px solid #ffffff;
+}
+
+.heroe-profile .goback{
+    float:left;
+}
+
+/*-------------- modal stuff*/
+.page-modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    border-radius: 0;
+}
+
+.modal-dialog {
+    position: relative;
+    top: 120px;
+}
+
+.modal-header {
+    background-color:rgba(255,255,255,.15);
+    color:#555;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 0px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0;
+}
+
+.red-row{
+    background-color: #B11427;
+    height: 3px;
+}
+.blue-row{
+    background-color: #181999;
+    height: 3px;
+}
+.yellow-row{
+    background-color: #D78600;
+    height: 3px;
+}
+
+.color_star{
+    color:#e15a0f;
+}
+
+.color_check{
+    color:#2ace9a;
+}
+
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.pd-l-r{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.group{
+    height: 80px;
+    width: 80px;
+    padding-top: 20px;
+    margin-left: 43px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #565657;
+    color: #fbf7f6cf;
+    font-weight: 700;
+    text-align: -webkit-center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.bg-blue{
+    background-color: #1f8ff7;
+}
+.bg-violet{
+    background-color: #a43de3;
+}
+.bg-orange{
+    background-color: #df5c0f;
+}
+.bg-green{
+    background-color: #0ea521;
+}
+
+.selected{
+    opacity: 1;
+    border-color: black;
+}
+
+.to_the_left{
+    margin-left: 46%;
+}
+
