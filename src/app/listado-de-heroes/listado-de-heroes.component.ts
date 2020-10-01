@@ -15,7 +15,7 @@ export class ListadoDeHeroesComponent implements OnInit {
   constructor(public heroesService: HeroesService) { }
   
   ngOnInit(): void {
-   
+    this.heroesService.getHeroes();
   }
 
   submitSearch() {
