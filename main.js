@@ -210,6 +210,7 @@ class ListadoDeHeroesComponent {
         this.title = 'Tutorial de Angular - Héroes de Marvel';
     }
     ngOnInit() {
+        this.heroesService.getHeroes();
     }
     submitSearch() {
         this.heroesService.getHeroes(this.searchString);
